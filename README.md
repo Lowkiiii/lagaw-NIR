@@ -1,61 +1,55 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Lagaw-NIR 🗺️
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Lagaw-NIR** is a Laravel-based tourism management web application focused on promoting local attractions in the Negros Island Region (NIR), Philippines. It allows admins to manage and showcase hotels, restaurants, events, and more.
 
-## About Laravel
+🔒 *Note: The source code is private to protect original work. A live walkthrough or access can be provided upon request.*
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 💡 Project Overview
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Built with Laravel and MySQL, Lagaw-NIR enables local tourism stakeholders to efficiently manage tourism-related listings while giving users a user-friendly way to explore attractions. The system includes both admin and public-facing components, featuring secure authentication and dynamic data management.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🔑 Key Features
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- 🧳 **Place Management Modules**  
+  Admin panel to manage places like hotels, restaurants, events, and accommodations.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- 🔐 **2FA and Secure Login**  
+  User authentication with Laravel Breeze, plus Google OAuth integration via Laravel Socialite.
 
-## Laravel Sponsors
+- 🌐 **Responsive Interface**  
+  Clean, mobile-friendly UI built with Blade + Bootstrap.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- 🗃️ **Category-Based Organization**  
+  Easily organize listings by category and location.
 
-### Premium Partners
+- 🔎 **Search and Filter Functionality**  
+  Visitors can browse by type, rating, or keyword.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+- 🖼️ **Gallery & Detail Views**  
+  Each entry supports images and detailed information for better user experience.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🛠 Tech Stack
 
-## Code of Conduct
+- **Framework:** Laravel 10 (PHP)
+- **Frontend:** Blade Templating Engine, Tailwind CSS / Bootstrap 5
+- **Authentication:** Laravel Breeze, Laravel Socialite (Google OAuth)
+- **Database:** MySQL
+- **Routing:** Laravel web routes
+- **Version Control:** Git & GitHub
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 👨‍💻 My Role
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+As the **Full-Stack Developer**, I:
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Designed the backend using Laravel MVC and Eloquent ORM
+- Built user roles (admin vs. guest) and middleware-based access control
+- Integrated Google OAuth 2.0 for sign-in with Laravel Socialite
+- Developed dynamic CRUD operations for various place types
